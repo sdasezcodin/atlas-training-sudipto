@@ -44,8 +44,6 @@ Each folder contains documentation and practical tasks performed during the resp
 ## 📌 Author
 
 **Sudipto Das**  
-Employee Code: 107856406  
-Email: dsdipt@amazon.com  
 
 ---
 
