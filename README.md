@@ -1,10 +1,10 @@
 # atlas-training-sudipto
----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-This repository contains day-wise tasks and assignments completed as part of the Atlas training program, under the guidance of the trainer. Each file represents daily progress, solutions, or exercises focused on practical skills development and hands-on learning.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+This repository includes day-wise tasks and notes from the ATLAS training program.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## 🗂 Folder Structure
-
 Each folder contains documentation and practical tasks performed during the respective day of training.
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ## 📅 Training Timeline & Topics Covered
 
