@@ -1,51 +1,64 @@
-# atlas-training-sudipto
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-This repository includes day-wise tasks and notes from the ATLAS training program.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-## 🗂 Folder Structure
-Each folder contains documentation and practical tasks performed during the respective day of training.
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+# ATLAS Training – Sudipto
 
-## 📅 Training Timeline & Topics Covered
-
-| Day | Date        | Topics Covered                                                                 |
-|-----|-------------|---------------------------------------------------------------------------------|
-| 01  | 14-May-2025 | SDLC models, network types, OSI/TCP-IP, server types, DNS, TCP/UDP, VPN        |
-| 02  | 15-May-2025 | Git & GitHub setup, repo creation, branching, push/pull, .gitignore, Markdown  |
-| 03  | 21-May-2025 | Git commands recap, MongoDB CRUD, replication, security, sharding, auth        |
-| 04  | 22-May-2025 | Cloud basics, IaaS/PaaS/SaaS, install JDK, Tomcat, Jenkins with Maven          |
-| 05  | 28-May-2025 | Linux basics: directories, file ops, `cat`, `ls`, `echo`, symbolic links        |
-| 06  | 29-May-2025 | Linux deep dive: regex, bash, grep, awk, permissions, users, mounting, process |
+This repository documents my learning journey during the ATLAS training program. It includes daily tasks, code samples, and notes in both Java and Linux, structured in a clear and organized format.
 
 ---
 
-## 🛠️ Technologies & Tools Used
+## 📁 Folder Structure
 
-- **Linux (Ubuntu)** — CLI, permissions, users, process management
-- **Git & GitHub** — Version control, branching, remote management
-- **MongoDB** — CRUD, replication, aggregation, security
-- **Bash & Shell Scripting** — Text processing with `awk`, `grep`, scripting basics
-- **DevOps Tools** — Jenkins, Tomcat, JDK setup
-- **Cloud Fundamentals** — IaaS, SaaS, PaaS, cloud architecture
-
----
-
-## 🔍 Learning Objectives
-
-- Gain hands-on experience in Linux OS and commands
-- Understand core DevOps workflows and CI/CD tools
-- Learn Git version control and collaboration using GitHub
-- Perform database operations with MongoDB
-- Automate tasks using bash scripting and shell utilities
-- Understand cloud computing and deployment basics
-
----
-
-## 📌 Author
-
-**Sudipto Das**  
+atlas-training-sudipto/
+├── java/ # Java code samples and exercises
+│ ├── Task001.java # Basic Java Program - Hello World
+│ ├── Task002.java # Variables and Data Types
+│ ├── Task003.java # Conditional Statements
+│ ├── Task004.java # Looping Examples
+│ ├── Task005.java # Switch Case Example
+│ ├── Task006.java # Even-Odd Checker
+│ ├── Task007.java # Sum of First N Numbers
+│ ├── Task008.java # Palindrome Check
+│ ├── Task009.java # Array Basics
+│ ├── Task010.java # String Handling
+│ └── ... # More Java tasks being added regularly
+├── day01_107856406_dsdipt_sudipto_14may2025.docx
+├── day02_107856406_dsdipt_sudipto_15may2025.docx
+├── day03_107856406_dsdipt_sudipto_21may2025.docx
+├── day04_107856406_dsdipt_sudipto_22may2025.docx
+├── day05_107856406_dsdipt_sudipto_28may2025.docx
+├── day06_107856406_dsdipt_sudipto_29may2025.docx
+├── day07_107856406_dsdipt_sudipto_4june2025.docx
+└── README.md # This file
 
 ---
 
-> _This repository is intended for educational and professional documentation of the training program. Each file reflects a specific day's deliverables and exercises._
+## 🗓️ Daily Logs & Notes
 
+- **Day 01 (14 May 2025):** Introduction to Linux commands, folder and file operations.
+- **Day 02 (15 May 2025):** Using `mkdir`, `cat`, `touch`, `echo`, file creation in Windows CMD and Linux.
+- **Day 03 (21 May 2025):** GitHub repo creation, cloning, pushing from IntelliJ.
+- **Day 04 (22 May 2025):** Linux permissions (`chmod`), file deletion, directory copy.
+- **Day 05 (28 May 2025):** Java basics – class, object, data types, input/output.
+- **Day 06 (29 May 2025):** Java loops, arrays, user-defined logic examples.
+- **Day 07 (04 June 2025):** Java OOP – encapsulation, getter/setter, enums, main method inside class.
+
+---
+
+## 💻 Java Practice
+
+Each `TaskXXX.java` file contains practice code written during the training, such as:
+
+- Hello World
+- Conditional Logic
+- Looping Structures
+- Palindrome Checks
+- Arrays and Strings
+- Object-Oriented Programming (Encapsulation, Enum)
+
+---
+
+## 🧪 Tools & Technologies Used
+
+- Java (IntelliJ IDEA)
+- Git & GitHub
+- Windows Command Prompt / PowerShell
+- Linux Bash (WSL)
+- Microsoft Word (for documentation)
