@@ -6,28 +6,29 @@ This repository documents my learning journey during the ATLAS training program.
 
 ## 📁 Folder Structure
 
-📂 atlas-training-sudipto/
-├── 📁 java/
-│   ├── Task001.java      ➤ Hello World
-│   ├── Task002.java      ➤ Variables and Data Types
-│   ├── Task003.java      ➤ Conditional Statements
-│   ├── Task004.java      ➤ Loops (for, while)
-│   ├── Task005.java      ➤ Switch Case
-│   ├── Task006.java      ➤ Even-Odd Checker
-│   ├── Task007.java      ➤ Sum of Numbers
-│   ├── Task008.java      ➤ Palindrome Program
-│   ├── Task009.java      ➤ Arrays
-│   ├── Task010.java      ➤ String Operations
-│   └── ...               ➤ More tasks added regularly
-│
-├── 📄 day01_107856406_dsdipt_sudipto_14may2025.docx
-├── 📄 day02_107856406_dsdipt_sudipto_15may2025.docx
-├── 📄 day03_107856406_dsdipt_sudipto_21may2025.docx
-├── 📄 day04_107856406_dsdipt_sudipto_22may2025.docx
-├── 📄 day05_107856406_dsdipt_sudipto_28may2025.docx
-├── 📄 day06_107856406_dsdipt_sudipto_29may2025.docx
-├── 📄 day07_107856406_dsdipt_sudipto_4june2025.docx
-└── 📄 README.md
+| Path / File Name                                         | Description                               |
+|----------------------------------------------------------|-------------------------------------------|
+| 📂 atlas-training-sudipto/                               | Root directory                            |
+| ├── 📁 java/                                              | Contains all Java training tasks          |
+| │   ├── Task001.java                                      | Hello World program                       |
+| │   ├── Task002.java                                      | Variables and Data Types                  |
+| │   ├── Task003.java                                      | Conditional Statements                    |
+| │   ├── Task004.java                                      | Looping Examples                          |
+| │   ├── Task005.java                                      | Switch Case Example                       |
+| │   ├── Task006.java                                      | Even-Odd Checker                          |
+| │   ├── Task007.java                                      | Sum of Numbers                            |
+| │   ├── Task008.java                                      | Palindrome Check                          |
+| │   ├── Task009.java                                      | Array Basics                              |
+| │   ├── Task010.java                                      | String Handling                           |
+| │   └── ...                                               | More tasks being added                    |
+| ├── day01_107856406_dsdipt_sudipto_14may2025.docx        | Day 01 Training Notes                     |
+| ├── day02_107856406_dsdipt_sudipto_15may2025.docx        | Day 02 Training Notes                     |
+| ├── day03_107856406_dsdipt_sudipto_21may2025.docx        | Day 03 Training Notes                     |
+| ├── day04_107856406_dsdipt_sudipto_22may2025.docx        | Day 04 Training Notes                     |
+| ├── day05_107856406_dsdipt_sudipto_28may2025.docx        | Day 05 Training Notes                     |
+| ├── day06_107856406_dsdipt_sudipto_29may2025.docx        | Day 06 Training Notes                     |
+| ├── day07_107856406_dsdipt_sudipto_4june2025.docx        | Day 07 Training Notes                     |
+| └── README.md                                            | Project documentation (this file)         |
 
 ---
 
