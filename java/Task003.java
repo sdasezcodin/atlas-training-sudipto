@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Class to handle swapping of two numbers
+// Class to handle swapping of two numbers.
 class SwapNumbers {
     // Method to swap two integers and print before and after values
     void swap(int a, int b) {
