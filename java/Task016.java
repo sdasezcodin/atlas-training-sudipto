@@ -8,7 +8,7 @@ enum Color {
 // Main class to demonstrate enums
 public class Task016 {
     public static void main(String[] args) {
-        // Assign a value from the enum to a variable
+        // Assign a value from the enum to a variable.
         Color c1 = Color.yellow;
 
         // Print the enum value
