@@ -25,7 +25,7 @@ class Calculation {
     }
 }
 
-// ❌ This will cause a compilation error because Java doesn't support multiple inheritance using classes.
+// ❌ This will cause a compilation error because Java doesn't support multiple inheritance using classes
 class MyCalculation extends Calculation, Clock {
     public void showBoth() {
         System.out.println("Result: " + result + ", Time: " + hours);
