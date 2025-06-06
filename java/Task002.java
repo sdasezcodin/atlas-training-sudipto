@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Class to perform addition of two numbers
+// Class to perform addition of two numbers.
 class AddTwoNumber {
     // Method to add two integers and return the sum
     int add(int a, int b) {
