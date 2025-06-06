@@ -1,6 +1,6 @@
 public class Task025 {
     public static void main(String[] args) {
-        // Create and initialize an array
+        // Create and initialize an array.
         int[] numbers = new int[6];
         numbers[0] = 5;
         numbers[1] = 15;
