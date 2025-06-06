@@ -1,7 +1,7 @@
 public class Task038 {
     public static void main(String[] args) {
         // The following line causes a compile-time error:
-        // "Employeeeee is abstract; cannot be instantiated"
+        // "Employeeeee is abstract; cannot be instantiated."
         Employeeeee e = new Employeeeee("George W.", "Houston, TX", 43);
         System.out.println("\n Call mailCheck using Employeeeee reference--");
         e.mailCheck();
