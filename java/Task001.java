@@ -1,4 +1,4 @@
-// Class to display messages
+// Class to display messages.
 class Display {
 
     // Method to print welcome messages
