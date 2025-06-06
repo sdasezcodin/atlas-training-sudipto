@@ -1,4 +1,4 @@
-// Class to print numbers from 10 to 1, skipping 7 and 5
+// Class to print numbers from 10 to 1, skipping 7 and 5.
 class NumberPrinter {
     // Method to print numbers with specified conditions
     void printNumbers() {
