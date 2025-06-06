@@ -3,7 +3,7 @@ public class Task036 {
         // Creating object of InfoPrinter class
         InfoPrinter printer = new InfoPrinter();
 
-        // Calling overloaded methods with different parameter sequences
+        // Calling overloaded methods with different parameter sequences.
         printer.printInfo("Alice", 25);          // String, int
         printer.printInfo(101, "HR");            // int, String
         printer.printInfo(true, "Active");       // boolean, String
