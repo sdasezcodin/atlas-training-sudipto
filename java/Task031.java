@@ -4,7 +4,7 @@ public class Task031 {
         final int num1 = 25;
         final int num2 = 7;
 
-        // Create instance of the most advanced calculator
+        // Create instance of the most advanced calculator.
         AdvancedCalculator calculator = new AdvancedCalculator();
 
         System.out.println("Calculator Inheritance Demonstration");
