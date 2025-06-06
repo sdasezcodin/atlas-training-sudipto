@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Class to perform basic arithmetic operations
+// Class to perform basic arithmetic operations.
 class Calculator {
     // Method to add two numbers
     int add(int a, int b) {
