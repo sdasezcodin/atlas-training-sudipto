@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Class to check weekday name based on number input
+// Class to check weekday name based on number input.
 class WeekdayChecker {
     // Method to print the day of the week based on the input number
     void checkDay(int day) {
