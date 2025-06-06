@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Class to compare two numbers
+// Class to compare two numbers.
 class CompareNumbers {
     // Method to compare two integers using a ternary operator
     String compare(int a, int b) {
