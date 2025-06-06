@@ -11,7 +11,7 @@ abstract class Gadgets {
     abstract void turnOff();
 }
 
-// Concrete class implementing the abstract methods
+// Concrete class implementing the abstract methods.
 class TVRemote extends Gadgets {
     @Override
     void turnOn() {
