@@ -3,7 +3,7 @@ public class Task035 {
         // Creating object of ValuePrinter class
         ValuePrinter printer = new ValuePrinter();
 
-        // Calling overloaded methods with different types
+        // Calling overloaded methods with different types.
         printer.printValue(10);         // Integer version
         printer.printValue(10.5);       // Double version
         printer.printValue("Hello");    // String version
