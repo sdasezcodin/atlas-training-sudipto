@@ -1,7 +1,7 @@
 package Arrays;
 
 class ArrayDemo {
-    // Method to print char array
+    // Method to print char array.
     void printCharArray(char[] arr) {
         System.out.println(arr);  // prints as string, e.g. "aeiou"
     }
