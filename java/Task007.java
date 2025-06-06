@@ -1,4 +1,4 @@
-// Class to represent a Customer with ID, Name, and Email
+// Class to represent a Customer with ID, Name, and Email.
 class Customer {
     // Private final fields for customer details (immutable after initialization)
     private final int id;           // Customer ID
