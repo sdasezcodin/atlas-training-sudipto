@@ -1,4 +1,4 @@
-// Class User with private name field and getter/setter methods
+// Class User with private name field and getter/setter methods.
 class User {
     private String name;
 
