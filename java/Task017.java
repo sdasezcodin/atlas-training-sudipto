@@ -1,6 +1,6 @@
 
 class Person {
-    private String name;  // private variable
+    private String name;  // private variable.
 
     // Getter
     public String getName() {
