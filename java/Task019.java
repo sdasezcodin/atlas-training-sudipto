@@ -1,6 +1,6 @@
 public class Task019 {
     public static void main(String[] args) {
-        // Simple loop to display all elements
+        // Simple loop to display all elements.
         System.out.println("All Chemical Elements:");
         for (Element element : Element.values()) {
             System.out.println(element);
