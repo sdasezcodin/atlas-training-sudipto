@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Class to validate login ID and password using do-while loop
+// Class to validate login ID and password using do-while loop.
 class LoginCheck {
     // Method to repeatedly prompt user until correct login credentials are entered
     void validate(String correctId, String correctPwd) {
