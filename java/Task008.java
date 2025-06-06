@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Class to compare two numbers using if-else
+// Class to compare two numbers using if-else.
 class NumberComparison {
     // Method to compare two numbers and print which one is greater
     void checkGreater(int num1, int num2) {
