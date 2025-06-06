@@ -1,6 +1,6 @@
 public class Task034 {
     public static void main(String[] args) {
-        // Creating object of NumberPrinter class
+        // Creating object of NumberPrinter class.
         NumberPrinter printer = new NumberPrinter();
 
         // Calling overloaded methods
