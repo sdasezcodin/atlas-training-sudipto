@@ -1,6 +1,6 @@
 public class Task033 {
     public static void main(String[] args) {
-        // Creating object of Mart class
+        // Creating object of Mart class.
         Mart obj = new Mart();
 
         // Calling billing method
