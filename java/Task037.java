@@ -15,7 +15,7 @@ public class Task037 {
 }
 
 class Employee {
-    // private: accessible only within this class
+    // private: accessible only within this class.
     private int password;
     // protected: accessible within same package (not useful here without inheritance)
     protected int salary;
