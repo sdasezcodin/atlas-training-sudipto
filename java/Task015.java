@@ -1,6 +1,6 @@
 package StringHandling;
 
-// Separate class to demonstrate string handling
+// Separate class to demonstrate string handling.
 class StringDemo {
     // Method to demonstrate various ways to create and print strings
     void showStrings() {
