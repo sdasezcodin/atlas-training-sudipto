@@ -1,6 +1,6 @@
 public class Task039 {
     public static void main(String[] args) {
-        // AbstractEmployee e = new AbstractEmployee("George"); // ❌ Not allowed
+        // AbstractEmployee e = new AbstractEmployee("George"); // ❌ Not allowed.
         SalariedEmp se = new SalariedEmp("George", 52000);
         se.mailCheck();
         System.out.println("Computed weekly pay: " + se.computePay());
