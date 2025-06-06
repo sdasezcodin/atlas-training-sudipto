@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Class to handle user login details
+// Class to handle user login details.
 class Login {
     // Method to return masked password and display login information
     void showLoginDetails(String id, String password) {
