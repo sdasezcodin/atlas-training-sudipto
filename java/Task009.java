@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-// Class to find the greatest of 3 numbers
+// Class to find the greatest of 3 numbers.
 class GreaterOfThree {
     // Method to compare and print the greatest number
     void findGreatest(int a, int b, int c) {
