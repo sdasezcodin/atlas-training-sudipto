@@ -5,7 +5,7 @@ class Customer420 extends Exception { // extends predefined class Exception
 }
 
 // A Class that uses the above Customer
-public class Task013_UserException {
+public class UserException {
     public static void main(String args[]) {
         try {
             // Throw an object of user-defined exception
