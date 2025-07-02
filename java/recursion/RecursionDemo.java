@@ -10,20 +10,25 @@ public class RecursionDemo {
         }
 
         int ans = n * factorial(n - 1);
-        System.out.println(ans);
         return ans;
     }
 
     int fib (int n) {
+        
         Map<Integer, Integer> map = new HashMap<>();
+        
         if (n<2) {
             return n;
         }
+        
         if(map.containsKey(n)) {
             return map.get(n);
         }
+        
         int ans = fib(n-1) + fib (n-2);
+        
         map.put(n,ans);
+        
         return ans;
     }
 
