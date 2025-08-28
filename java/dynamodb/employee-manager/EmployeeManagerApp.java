@@ -19,7 +19,7 @@ public class EmployeeManagerApp {
 
         while (running) {
             try {
-                // -------- Table Management --------
+                // -------- Table Management -------
                 System.out.println("\n==============================");
                 System.out.println("   Employee DynamoDB Manager   ");
                 System.out.println("==============================");
