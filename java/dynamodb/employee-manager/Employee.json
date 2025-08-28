@@ -1,0 +1,52 @@
+[
+  {
+    "ID": 100,
+    "Name": "Zara",
+    "NomenClature": "Intern"
+  },
+  {
+    "ID": 101,
+    "Name": "Alice",
+    "NomenClature": "Developer"
+  },
+  {
+    "ID": 102,
+    "Name": "Bob",
+    "NomenClature": "Tester"
+  },
+  {
+    "ID": 103,
+    "Name": "Charlie",
+    "NomenClature": "Manager"
+  },
+  {
+    "ID": 104,
+    "Name": "David",
+    "NomenClature": "Designer"
+  },
+  {
+    "ID": 105,
+    "Name": "Eva",
+    "NomenClature": "Developer"
+  },
+  {
+    "ID": 106,
+    "Name": "Frank",
+    "NomenClature": "Tester"
+  },
+  {
+    "ID": 107,
+    "Name": "Grace",
+    "NomenClature": "Manager"
+  },
+  {
+    "ID": 108,
+    "Name": "Hank",
+    "NomenClature": "Developer"
+  },
+  {
+    "ID": 109,
+    "Name": "Ivy",
+    "NomenClature": "Designer"
+  }
+]
