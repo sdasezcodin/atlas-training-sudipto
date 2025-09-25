@@ -5,33 +5,34 @@
 [![Java](https://img.shields.io/badge/Java-17+-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.java.com)
 [![JUnit](https://img.shields.io/badge/JUnit-5-25A162?style=for-the-badge&logo=junit5&logoColor=white)](https://junit.org/junit5/)
 [![DynamoDB](https://img.shields.io/badge/DynamoDB-FF9900?style=for-the-badge&logo=amazondynamodb&logoColor=white)](https://aws.amazon.com/dynamodb/)
-[![Design Patterns](https://img.shields.io/badge/Design%20Patterns-Implemented-blue?style=for-the-badge)](https://refactoring.guru/design-patterns)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-2.3+-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
 
 ## 📋 Table of Contents
 
-- [Overview](#overview)
-- [Repository Structure](#repository-structure)
-- [Core Modules](#core-modules)
-- [Technical Skills Covered](#technical-skills-covered)
-- [Daily Progress Log](#daily-progress-log)
-- [Getting Started](#getting-started)
-- [Key Implementations](#key-implementations)
-- [Testing & Quality Assurance](#testing--quality-assurance)
-- [Tools & Technologies](#tools--technologies)
-- [Learning Outcomes](#learning-outcomes)
-- [Contributing](#contributing)
+- [Overview](#-overview)
+- [Repository Structure](#-repository-structure)
+- [Core Modules](#️-core-modules)
+- [Technical Skills Covered](#-technical-skills-covered)
+- [Daily Progress Log](#-daily-progress-log)
+- [Getting Started](#-getting-started)
+- [Key Implementations](#-key-implementations)
+- [Testing & Quality Assurance](#-testing--quality-assurance)
+- [Tools & Technologies](#️-tools--technologies)
+- [Learning Outcomes](#-learning-outcomes)
 
 ---
 
 ## 🎯 Overview
 
-This repository documents my comprehensive journey through the **ATLAS Training Program**, focusing on enterprise-grade Java development. It contains 35+ days of structured learning, covering everything from fundamental programming concepts to advanced software architecture patterns.
+This repository documents my journey through the **ATLAS Training Program**, focusing on Java and enterprise development. The program spanned over 38 days, covering everything from basic programming concepts to complex enterprise architecture patterns and cloud integration.
+
+What started as a set of simple coding exercises evolved into a comprehensive collection of implementations demonstrating key Java concepts, design patterns, and enterprise development practices.
 
 ### 🎓 **Training Scope**
-- **Duration**: 35+ Days (May 2025 - September 2025)
-- **Focus Areas**: Java Enterprise Development, Software Engineering Principles, Cloud Integration
-- **Project Count**: 150+ Code Examples and Implementations
-- **Documentation**: 35+ Detailed Daily Reports
+- **Duration**: 38 Days (May-September 2025)
+- **Focus Areas**: Java Development, Software Engineering Principles, Cloud Integration
+- **Implementation Count**: 150+ Java code examples
+- **Documentation**: 38 detailed daily reports
 
 ---
 
@@ -57,9 +58,10 @@ atlas-training-sudipto/
 │   ├── 📁 String & Array/            # String manipulation and array operations
 │   └── 📁 testing/                   # JUnit testing frameworks
 ├── 📁 home-tasks/                    # Daily assignments and practice tasks
-├── 📄 Daily Documentation/           # 35 comprehensive daily reports (.docx)
-└── 📄 README.md                      # This documentation
+└── 📄 day01-38_*.docx                # Daily documentation files
 ```
+
+The structure is organized by topic rather than chronologically, making it easier to locate specific implementations or concepts.
 
 ---
 
@@ -89,18 +91,11 @@ atlas-training-sudipto/
 - Employee management system implementation
 - Table creation, deletion, and querying
 
-### 5. **Multithreading & Concurrency** ⚡
-- Thread lifecycle management
-- Synchronization mechanisms
-- Deadlock prevention and resolution
-- Inter-thread communication
-- Lock-based synchronization patterns
-
-### 6. **Testing & Quality Assurance** 🧪
-- JUnit 4 and JUnit 5 implementations
-- Test suite creation and execution
-- Exception testing and timeout handling
-- Parameterized testing and test runners
+### 5. **Testing Frameworks** 🧪
+- JUnit 5 implementation
+- Mockito for service layer testing
+- Test suites and runners
+- Spring Boot testing with Mobile Store application
 
 ---
 
@@ -116,9 +111,9 @@ atlas-training-sudipto/
 ### **Advanced Java**
 - ✅ Java 8+ Streams API
 - ✅ Generics and Type Safety
-- ✅ Reflection and Annotations
 - ✅ Multithreading and Concurrency
 - ✅ Memory Management
+- ✅ Spring Boot Application Development
 
 ### **Software Engineering**
 - ✅ Design Pattern Implementation
@@ -132,6 +127,7 @@ atlas-training-sudipto/
 - ✅ NoSQL Database Operations
 - ✅ Cloud Service Integration
 - ✅ JSON Data Processing
+- ✅ RESTful API Development
 
 ---
 
@@ -185,7 +181,7 @@ atlas-training-sudipto/
 ## 🚀 Getting Started
 
 ### **Prerequisites**
-- Java 17 or higher
+- Java 8 or higher
 - IntelliJ IDEA or any Java IDE
 - Git for version control
 - Maven for dependency management
@@ -200,11 +196,14 @@ git clone https://github.com/sdasezcodin/atlas-training-sudipto.git
 # Navigate to project directory
 cd atlas-training-sudipto
 
-# Compile Java files (example)
+# For standalone Java examples
 javac -cp . java/algorithms/MergeSortDemo.java
-
-# Run examples
 java -cp . java.algorithms.MergeSortDemo
+
+# For Maven projects (like Mobile Store)
+cd java/testing/mobilestore
+mvn clean install
+mvn spring-boot:run
 ```
 
 ### **Running Specific Modules**
@@ -229,47 +228,54 @@ cd java/testing && java -cp .:junit-platform-console-standalone.jar org.junit.ru
 
 ### **🔥 Highlighted Projects**
 
-1. **Employee Management System with DynamoDB**
-   - Complete CRUD operations
-   - AWS SDK integration
-   - JSON data processing
-   - Connection management
+1. **Mobile Store Spring Boot Application**
+   - Complete REST API with CRUD operations
+   - Entity-DTO architecture with proper validation
+   - Exception handling and custom error responses
+   - Comprehensive unit testing with Mockito
+   - MVC pattern implementation
 
-2. **Custom Data Structure Implementations**
-   - Self-balancing AVL Trees
-   - Red-Black Tree implementation
-   - Custom HashMap with collision handling
-   - Circular and Doubly LinkedLists
+2. **Employee Management System with DynamoDB**
+   - AWS SDK integration for NoSQL operations
+   - Complete CRUD functionality
+   - JSON data processing
+   - Cloud-based persistence
 
 3. **Design Pattern Showcase**
    - Complete GoF pattern implementations
-   - Real-world usage examples
-   - Performance comparisons
-   - Best practice demonstrations
+   - Real-world examples of each pattern
+   - Architectural patterns for enterprise applications
+   - Microservice and event-driven architecture demos
 
 4. **Multithreading Framework**
-   - Thread pool management
-   - Synchronization utilities
-   - Deadlock prevention mechanisms
-   - Producer-consumer implementations
+   - Thread management and synchronization
+   - Producer-consumer implementation
+   - Deadlock prevention
+   - Parallel algorithm execution
 
-5. **Advanced Algorithm Suite**
-   - Sorting algorithm performance comparison
-   - Graph traversal with path finding
-   - Dynamic programming solutions
-   - Recursive problem-solving techniques
+5. **Collections Framework Deep Dive**
+   - Custom collection implementations
+   - Performance analysis and comparison
+   - Data structure selection guidelines
+   - Real-world use cases
 
 ---
 
 ## 🧪 Testing & Quality Assurance
 
 ### **Testing Framework Coverage**
-- **JUnit 4 & 5**: Comprehensive test suites
-- **Parameterized Tests**: Data-driven testing approaches
-- **Exception Testing**: Error condition validation
-- **Timeout Testing**: Performance constraint validation
+- **JUnit 5**: Core testing framework
+- **Mockito**: Service layer mocking
+- **Hamcrest**: Assertion library
+- **Spring Boot Test**: Integration testing
 - **Test Runners**: Automated test execution
-- **Test Suites**: Organized test case management
+
+### **Test Coverage Areas**
+- Unit testing of business logic
+- Exception handling verification
+- Performance and timeout testing
+- Parameterized testing
+- Integration testing with Spring
 
 ### **Quality Metrics**
 - ✅ 95%+ Code Coverage
@@ -285,17 +291,17 @@ cd java/testing && java -cp .:junit-platform-console-standalone.jar org.junit.ru
 ### **Development Environment**
 | Technology | Version | Purpose |
 |------------|---------|----------|
-| **Java** | 17+ | Core programming language |
-| **IntelliJ IDEA** | Latest | Primary IDE for development |
+| **Java** | 8, 17 | Core programming language |
+| **IntelliJ IDEA** | 2023.1+ | Primary IDE for development |
 | **Git** | 2.x+ | Version control system |
-| **GitHub** | - | Repository hosting and collaboration |
-| **Maven** | 3.x+ | Dependency management and build tool |
+| **Maven** | 3.8+ | Dependency management |
 
 ### **Frameworks & Libraries**
-- **JUnit 4/5**: Unit testing framework
+- **Spring Boot**: RESTful API development
+- **JUnit 5**: Testing framework
 - **AWS SDK for Java**: DynamoDB integration
-- **Java Collections Framework**: Built-in data structures
-- **Java Streams API**: Functional programming support
+- **Java Collections**: Data structure implementation
+- **Mockito**: Mocking framework for testing
 
 ### **Cloud & Database**
 - **Amazon DynamoDB**: NoSQL database service
@@ -314,139 +320,29 @@ cd java/testing && java -cp .:junit-platform-console-standalone.jar org.junit.ru
 ### **Technical Competencies Achieved**
 
 #### **💻 Core Programming**
-- ✅ **Advanced Java Proficiency**: Deep understanding of Java 8+ features
-- ✅ **Object-Oriented Design**: Masterful implementation of OOP principles
-- ✅ **Functional Programming**: Lambda expressions and Stream API expertise
-- ✅ **Memory Management**: Understanding of JVM internals and optimization
+- **Java Proficiency**: Deep understanding of core Java
+- **Object-Oriented Design**: Practical implementation of OOP principles
+- **Functional Programming**: Streams API and Lambda expressions
+- **Algorithm Design**: Efficient problem-solving approaches
 
 #### **📚 Software Engineering**
-- ✅ **Design Patterns**: Complete implementation of 23 GoF patterns
-- ✅ **SOLID Principles**: Clean code architecture and maintainable design
-- ✅ **Testing Strategies**: TDD, unit testing, and quality assurance
-- ✅ **Code Documentation**: Comprehensive inline and external documentation
+- **Design Patterns**: Implementation of GoF patterns
+- **SOLID Principles**: Clean code architecture
+- **Testing Strategies**: Comprehensive test coverage
+- **Documentation**: Clear and maintainable codebase
 
 #### **⚙️ System Design**
-- ✅ **Architectural Patterns**: MVC, Microservices, Event-driven architectures
-- ✅ **Performance Optimization**: Algorithm complexity analysis and optimization
-- ✅ **Scalability Considerations**: Design for enterprise-level applications
-- ✅ **Integration Patterns**: Service integration and API design
-
-#### **☁️ Cloud & Database**
-- ✅ **NoSQL Databases**: DynamoDB operations and data modeling
-- ✅ **Cloud Integration**: AWS service integration and deployment
-- ✅ **Data Processing**: JSON handling and transformation
-- ✅ **Connection Management**: Database connection pooling and optimization
-
-### **Professional Skills Developed**
-- 📈 **Problem-Solving**: Systematic approach to complex technical challenges
-- 📋 **Project Management**: Structured learning and milestone tracking
-- 📝 **Technical Writing**: Clear documentation and knowledge sharing
-- 🔍 **Code Review**: Quality assessment and improvement strategies
-- 🤝 **Collaboration**: Git-based workflow and team development practices
+- **Architectural Patterns**: MVC and microservice patterns
+- **Performance Optimization**: Algorithm efficiency and code optimization
+- **Scalability Considerations**: Enterprise-level design
+- **RESTful API Design**: Best practices for web services
 
 ---
 
-## 📈 Performance Metrics
+The repository represents my learning journey through the ATLAS training program. While it started with basic implementations, it gradually evolved into more complex enterprise applications. The Mobile Store project added in the final days demonstrates a complete Spring Boot application with proper architecture and testing.
 
-### **Repository Statistics**
-- **Total Files**: 200+ Java files
-- **Lines of Code**: 15,000+ LOC
-- **Documentation Pages**: 35+ detailed reports
-- **Test Cases**: 100+ comprehensive tests
-- **Design Patterns**: 23 complete implementations
-- **Algorithms**: 25+ sorting and searching algorithms
-
-### **Knowledge Assessment**
-- **Java Fundamentals**: Expert Level
-- **Data Structures**: Advanced Implementation
-- **Algorithm Design**: Proficient
-- **System Architecture**: Intermediate to Advanced
-- **Testing & QA**: Comprehensive Understanding
-- **Cloud Integration**: Operational Proficiency
+I've aimed to organize the code in a way that's easy to navigate and understand, making it useful not just as a record of my learning but also as a reference for specific Java implementations and design patterns.
 
 ---
 
-## 📚 Additional Resources
-
-### **Learning Materials Used**
-- **Official Oracle Java Documentation**
-- **AWS DynamoDB Developer Guide**
-- **Design Patterns: Elements of Reusable Object-Oriented Software (GoF)**
-- **Effective Java by Joshua Bloch**
-- **Clean Code by Robert C. Martin**
-- **JUnit 5 User Guide**
-
-### **Best Practices References**
-- **Google Java Style Guide**
-- **Oracle Java Code Conventions**
-- **AWS Well-Architected Framework**
-- **Martin Fowler's Refactoring Catalog**
-
----
-
-## 🤝 Contributing
-
-This repository represents a personal learning journey, but feedback and suggestions are welcome!
-
-### **How to Contribute**
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/improvement`)
-3. **Commit** your changes (`git commit -m 'Add some improvement'`)
-4. **Push** to the branch (`git push origin feature/improvement`)
-5. **Open** a Pull Request
-
-### **Contribution Guidelines**
-- Follow existing code style and conventions
-- Add comprehensive documentation for new features
-- Include unit tests for new functionality
-- Update README if adding new modules or sections
-
----
-
-## 📞 Contact & Support
-
-**Developer**: Sudipto Das  
-**Training Program**: ATLAS Software Development  
-**Repository**: [GitHub Repository](https://github.com/sdasezcodin/atlas-training-sudipto)  
-**Documentation Date**: September 2025  
-
-For questions, feedback, or collaboration opportunities, please open an issue in this repository.
-
----
-
-## 📋 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🚀 Future Enhancements
-
-### **Planned Improvements**
-- [ ] **Spring Framework Integration**: Add Spring Boot examples
-- [ ] **Microservices Architecture**: Implement complete microservices pattern
-- [ ] **Docker Containerization**: Add Docker configurations
-- [ ] **CI/CD Pipeline**: Implement automated testing and deployment
-- [ ] **API Documentation**: Add Swagger/OpenAPI specifications
-- [ ] **Performance Benchmarking**: Add JMH benchmarking suite
-- [ ] **Security Patterns**: Implement security best practices
-- [ ] **Database Migration**: Add Flyway/Liquibase examples
-
----
-
-<div align="center">
-
-## 🎆 **Thank you for exploring my ATLAS Training journey!** 🎆
-
-**👍 If this repository helped you, please consider giving it a star!**
-
-[![GitHub stars](https://img.shields.io/github/stars/sdasezcodin/atlas-training-sudipto?style=social)](https://github.com/sdasezcodin/atlas-training-sudipto/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/sdasezcodin/atlas-training-sudipto?style=social)](https://github.com/sdasezcodin/atlas-training-sudipto/network/members)
-
-*"The journey of a thousand miles begins with a single step." - Lao Tzu*
-
----
-
-**Made with ❤️ and lots of ☕ during the ATLAS Training Program**
-
-</div>
+*Updated: September 25, 2025*
