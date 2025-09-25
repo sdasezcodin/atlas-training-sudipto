@@ -23,7 +23,7 @@
     </properties>
 
     <dependencies>
-        <!-- Spring Boot Web + JPA -->
+        <!--- Spring Boot Web + JPA -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
